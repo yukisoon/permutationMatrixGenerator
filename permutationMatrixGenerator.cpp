@@ -11,7 +11,7 @@ void swap(unsigned int *a, unsigned int *b)
 }
 
 // A utility function to print an array
-void printArray(unsigned int arr[], int n)
+void printArray(unsigned int arr[], const int& n)
 {
 	for (int i = 0; i < n; i++)
 		printf("%d ", arr[i]);
@@ -19,7 +19,7 @@ void printArray(unsigned int arr[], int n)
 }
 
 // A function to generate a random permutation of arr[]
-void randomize(unsigned int arr[], int n)
+void randomize(unsigned int arr[], const int& n)
 {
 	srand(time(NULL));
 
